@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 1264px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background: #5541D7;
+    border-radius: 8px;
+    width: 139px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 24px;
+    border: none;
+    color: white;
+}
+
+.header .main-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    margin: 0;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main-header .main-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.boxes {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 384px;
+    height: 96px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1FB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box .main-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.box .main-span {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.008em;
+ }
+
+ .box .img {
+     padding-top: 11px;
+     width: 75px;
+ }
+ .box .img img {
+     width: 100%;
+ }
+
+ .box .main-texts {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #5541D7;
+ }
+
+
+ .box .texts {
+     display: flex;
+     justify-content: space-between;
+ }
+ .box .iconimg {
+     padding-top: 24px;
+ }
+
+ .colors {
+    justify-content: center;
+    align-items: center;
+    padding: 3px 8px;
+    background: #D9F2EC;
+    border-radius: 4px;
+    color: #3CAA91;
+ }
+
+ .col {
+    background: #FCE7CF;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 8px;
+    color: #EEAF22!important;
+}
+
+.color {
+    color: #2A23C2;
+    background: #DBD7F4;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 8px;
+}
+
+.borders {
+    border: 1px solid #2A23C2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #2A23C2 !important;
+}
+
+.wreppertwo .container {
+    background-color: #11142D;
+    margin-top: 100px;
+    padding: 25px;
+}
+
+.con {
+    padding: 25px;
+}
